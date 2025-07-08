@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doceria Nana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Doceria Nana</h1>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>
+        Bem-vindo à Doceria Nana! Aqui você encontra os doces mais deliciosos e
+        feitos com amor. 🍰💕
+      </p>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <ul>
+        <li>Brigadeiro Gourmet</li>
+        <li>Bem-Casado</li>
+        <li>Bolo de Pote</li>
+        <li>Mini Naked Cake</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form onsubmit="enviarFormulario(event)">
+        <input type="text" placeholder="Seu nome" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <textarea placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Doceria Nana - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
